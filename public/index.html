@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H2O@VUB</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/9.6.11/firebase-app-compat.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/9.6.11/firebase-auth-compat.js"></script>
+    <script defer src="/__/firebase/9.6.11/firebase-database-compat.js"></script>
+    <script defer src="/__/firebase/9.6.11/firebase-firestore-compat.js"></script>
+    <!-- <script defer src="/__/firebase/9.6.11/firebase-functions-compat.js"></script> -->
+    <script defer src="/__/firebase/9.6.11/firebase-messaging-compat.js"></script>
+    <script defer src="/__/firebase/9.6.11/firebase-storage-compat.js"></script>
+    <script defer src="/__/firebase/9.6.11/firebase-analytics-compat.js"></script>
+    <script defer src="/__/firebase/9.6.11/firebase-remote-config-compat.js"></script>
+    <script defer src="/__/firebase/9.6.11/firebase-performance-compat.js"></script>
+    <!-- 
+          initialize the SDK after all desired features are loaded, set useEmulator to false
+          to avoid connecting the SDK to running emulators.
+        -->
+    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div id="mobile-nav">
+                <div id="mobile-nav-top">
+                    <img src="icon/logo-small.png" alt="logo">
+                    <p>H2O@VUB</p>
+                    <img id="mobile-img" src="icon/logo-small.png" alt="logo">
+                </div>
+                <img id="menuOpener" src="icon/dropdown.png" alt="drop">
+                <div class="dropdown">
+                    <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        EN
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="nl.html">NL</a>
+                        <a class="dropdown-item" href="fr.html">FR</a>
+                    </div>
+                </div>
+                <ul>
+                    <li><a href="#lessons">about</a></li>
+                    <li><a href="#instructors">Instructors</a></li>
+                    <li><a href="#package">Package</a></li>
+                    <li><a href="Inscription info/Inscription-EN.html">Registration</a></li>
+                </ul>
+                <button onclick="window.location.href='#contact';">Contact us</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <section id="top">
+            <img id="topBackground" src="pictures/Bewerkte-Foto.JPG" alt="">
+            <div id="topContent">
+                <h1>Swimming lessons for kids</h1>
+                <!-- <p  class="text_with_1px_border">Enhance your swimming technique through a series of lessons</p> -->
+                <!-- <button>Start to swim!</button> -->
+            </div>
+            <div id="scrollLink">
+                <a href="#lessons"><img src="icon/dropdown.png" alt="scrollDown">
+                    <p>Scroll down</p>
+                </a>
+            </div>
+        </section>
+        <section id="lessons">
+            <h1>About</h1>
+            <p>Are you a casual swimmer looking for a way to improve your swimming skills? A triathlete that could use a
+                technique upgrade? A student that just wants to learn to swim fluently?<br><br>
+                In short, you want to take your swimming technique and/or endurance to a higher level. Then you have
+                found the right place to accomplish just that! We offer courses comprised of ten lessons that aim to
+                enhance our members technique in all four swimming styles. Our personalized approach is backed with
+                technical knowledge and hands on experience.
+            </p>
+        </section>
+        <section class="levels greyBackground">
+            <div>
+                <h1>Level 1</h1>
+                <p>Are you a casual swimmer looking for a way to improve your swimming skills? A triathlete that could
+                    use a
+                    technique upgrade? A student that just wants to learn to swim fluently?<br><br>
+                    In short, you want to take your swimming technique and/or endurance to a higher level. Then you have
+                    found the right place to accomplish just that! We offer courses comprised of ten lessons that aim to
+                    enhance our members technique in all four swimming styles. Our personalized approach is backed with
+                    technical knowledge and hands on experience.
+                </p>
+            </div>
+            <div class="videoke">
+                <iframe class="responsive-iframe" src="https://youtube.com/embed/801vCiDcxus?t=17"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </section>
+        <section class="levels whiteBackground">
+            <div>
+                <h1>Level 2</h1>
+                <p>Are you a casual swimmer looking for a way to improve your swimming skills? A triathlete that could
+                    use a
+                    technique upgrade? A student that just wants to learn to swim fluently?<br><br>
+                    In short, you want to take your swimming technique and/or endurance to a higher level. Then you have
+                    found the right place to accomplish just that! We offer courses comprised of ten lessons that aim to
+                    enhance our members technique in all four swimming styles. Our personalized approach is backed with
+                    technical knowledge and hands on experience.
+                </p>
+            </div>
+            <div class="videoke">
+                <iframe class="responsive-iframe" src="https://youtube.com/embed/801vCiDcxus?t=17"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </section>
+        <section class="levels greyBackground">
+            <div>
+                <h1>Level 3</h1>
+                <p>Are you a casual swimmer looking for a way to improve your swimming skills? A triathlete that could
+                    use a
+                    technique upgrade? A student that just wants to learn to swim fluently?<br><br>
+                    In short, you want to take your swimming technique and/or endurance to a higher level. Then you have
+                    found the right place to accomplish just that! We offer courses comprised of ten lessons that aim to
+                    enhance our members technique in all four swimming styles. Our personalized approach is backed with
+                    technical knowledge and hands on experience.
+                </p>
+            </div>
+            <div class="videoke">
+                <iframe class="responsive-iframe" src="https://youtube.com/embed/801vCiDcxus?t=17"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </section>
+        <section class="levels whiteBackground" >
+            <div>
+                <h1>Level 4</h1>
+                <p>Are you a casual swimmer looking for a way to improve your swimming skills? A triathlete that could
+                    use a
+                    technique upgrade? A student that just wants to learn to swim fluently?<br><br>
+                    In short, you want to take your swimming technique and/or endurance to a higher level. Then you have
+                    found the right place to accomplish just that! We offer courses comprised of ten lessons that aim to
+                    enhance our members technique in all four swimming styles. Our personalized approach is backed with
+                    technical knowledge and hands on experience.
+                </p>
+            </div>
+            <div class="videoke">
+                <iframe class="responsive-iframe" src="https://youtube.com/embed/801vCiDcxus?t=17"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </section>
+        <section id="bullets">
+            <ul>
+                <li>
+
+                    <img src="icon/drop.png" alt="drop">
+                    <div class="bulletList">
+                        <h2>Personal goals</h2>
+                        <p>Not everyone has the same end goal. We help you define it.</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="icon/drop.png" alt="drop">
+                    <div class="bulletList">
+                        <h2>Small groups</h2>
+                        <p>Don't worry, you won't be alone in the pool.</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="icon/drop.png" alt="drop">
+                    <div class="bulletList">
+                        <h2>Reasoning</h2>
+                        <p>Get insight in the mechanics behind the technique.</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="icon/drop.png" alt="drop">
+                    <div class="bulletList">
+                        <h2>Great instructors</h2>
+                        <p>Profit from two experienced and well qualified instructors.</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="icon/drop.png" alt="drop">
+                    <div class="bulletList">
+                        <h2>Tons of feedback</h2>
+                        <p>Get the tips and tricks to accelerate your technical improvements.</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="icon/drop.png" alt="drop">
+                    <div class="bulletList">
+                        <h2>Great sunday morning</h2>
+                        <p>Start your sunday with a splash!</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section id="instructors">
+            <div id="teamtitle">
+                <h1>Instructors</h1>
+            </div>
+
+            <div class="wrapper">
+
+                <div class="item">
+                    <div class="polaroid"><img src="pictures/abdelaziz.png"">
+                <div class=" caption">Abdelaziz</div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="polaroid"><img src="pictures/thomas.png">
+                    <div class="caption">Thomas</div>
+                </div>
+            </div>
+
+            </div>
+        </section>
+        <section id="package">
+            <h1>The package</h1>
+            <p>What, when, cost, where.</p>
+            <div class="row">
+                <div class="package-item">
+                    <h2>10 x</h2>
+                    <p>One hour lessons</p>
+                </div>
+                <div class="package-item">
+                    <h2>9 - 10am</h2>
+                    <p>On sunday mornings</p>
+                </div>
+                <div class="package-item">
+                    <h2>115€</h2>
+                    <p>For ten lessons</p>
+                </div>
+                <div class="package-item">
+                    <h2>VUB</h2>
+                    <p>VUB swimming pool</p>
+                </div>
+            </div>
+            <button onclick="document.getElementById('id01').style.display='flex'" class="dataknop"
+                title="data">Dates</button>
+            <div id="id01" class="w3-modal">
+                <div class="w3-modal-content w3-card-4 w3-animate-top">
+                    <div class="w3-container w3-teal w3-display-container">
+                        <span onclick="document.getElementById('id01').style.display='none'" class="popupx"><i
+                                class="popupxx"><img src="icon/xpng.png" alt="close"></i></span>
+                        <div id="tableDiv">
+                            <!-- <table id="dateTable">
+                                <thead id="tableHeader">
+                                    <tr>
+                                        <th colspan="2">Series 2 2021</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><b>Wednesday 21:00-22:00</b></td>
+                                        <td><b>Sunday 09:00-10:00</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td>/</td>
+                                        <td>19/09/21</td>
+                                    </tr>
+                                    <tr>
+                                        <td>/</td>
+                                        <td>26/09/21</td>
+                                    </tr>
+                                    <tr>
+                                        <td>/</td>
+                                        <td>10/10/21</td>
+                                    </tr>
+                                    <tr>
+                                        <td>/</td>
+                                        <td>17/10/21</td>
+                                    </tr>
+                                    <tr>
+                                        <td>/</td>
+                                        <td>24/10/21</td>
+                                    </tr>
+                                    <tr>
+                                        <td>/</td>
+                                        <td>31/10/21</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10/11/21</td>
+                                        <td>14/11/21</td>
+                                    </tr>
+                                    <tr>
+                                        <td>17/11/21</td>
+                                        <td>21/11/21</td>
+                                    </tr>
+                                    <tr>
+                                        <td>24/11/21</td>
+                                        <td>28/11/21</td>
+                                    </tr>
+                                    <tr>
+                                        <td>01/12/21</td>
+                                        <td>05/12/21</td>
+                                    </tr>
+                                </tbody>
+                            </table> -->
+                            <table id="dateTable">
+                                <thead id="tableHeader">
+                                    <tr>
+                                        <th colspan="2">Series 3 2021</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><b>Wednesday 21:00-22:00</b></td>
+                                        <td><b>Sunday 09:00-10:00</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td>08/12/21</td>
+                                        <td>12/12/21</td>
+                                    </tr>
+                                    <tr>
+                                        <td>05/01/22</td>
+                                        <td>09/01/22</td>
+                                    </tr>
+                                    <tr>
+                                        <td>12/01/22</td>
+                                        <td>16/01/22</td>
+                                    </tr>
+                                    <tr>
+                                        <td>19/01/22</td>
+                                        <td>23/01/22</td>
+                                    </tr>
+                                    <tr>
+                                        <td>26/01/22</td>
+                                        <td>30/01/22</td>
+                                    </tr>
+                                    <tr>
+                                        <td>02/02/22</td>
+                                        <td>06/02/22</td>
+                                    </tr>
+                                    <tr>
+                                        <td>09/02/22</td>
+                                        <td>13/02/22</td>
+                                    </tr>
+                                    <tr>
+                                        <td>16/02/22</td>
+                                        <td>20/02/22</td>
+                                    </tr>
+                                    <tr>
+                                        <td>23/02/22</td>
+                                        <td>27/02/22</td>
+                                    </tr>
+                                    <tr>
+                                        <td>09/03/22</td>
+                                        <td>13/03/22</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table id="dateTable">
+                                <thead id="tableHeader">
+                                    <tr>
+                                        <th colspan="2">Series 4 2022</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><b>Wednesday 21:00-22:00</b></td>
+                                        <td><b>Sunday 09:00-10:00</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td>16/03/22</td>
+                                        <td>20/03/22</td>
+                                    </tr>
+                                    <tr>
+                                        <td>23/03/22</td>
+                                        <td>27/03/22</td>
+                                    </tr>
+                                    <tr>
+                                        <td>30/03/22</td>
+                                        <td>03/04/22</td>
+                                    </tr>
+                                    <tr>
+                                        <td>20/04/22</td>
+                                        <td>24/04/22</td>
+                                    </tr>
+                                    <tr>
+                                        <td>27/04/22</td>
+                                        <td>/</td>
+                                    </tr>
+                                    <tr>
+                                        <td>04/05/22</td>
+                                        <td>08/05/22</td>
+                                    </tr>
+                                    <tr>
+                                        <td>11/02/22</td>
+                                        <td>15/05/22</td>
+                                    </tr>
+                                    <tr>
+                                        <td>18/05/22</td>
+                                        <td>22/05/22</td>
+                                    </tr>
+                                    <tr>
+                                        <td>25/05/22</td>
+                                        <td>29/05/22</td>
+                                    </tr>
+                                    <tr>
+                                        <td>01/06/22</td>
+                                        <td>05/06/22</td>
+                                    </tr>
+                                    <tr>
+                                        <td>/</td>
+                                        <td>12/06/22</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <p>Dates for future series will be announced as soon as possible.</p>
+                        </div>
+
+                    </div>
+                </div>
+        </section>
+        <section id="contact">
+            <div id="contactbox">
+                <div id="left">
+                    <h2>Get in touch!</h2>
+                    <div class="contact-item"><img src="icon/location.png" alt="location">
+                        <p>Boulevard de la Plaine 2, 1050 Ixelles</p>
+                    </div>
+                    <div class="contact-item"><img src="icon/phone-call.png" alt="phone">
+                        <p>+32479020578</p>
+                    </div>
+                    <div class="contact-item"><img src="icon/mail.png" alt="mail">
+                        <p><a id="mailto" href="mailto:info@starttoswim.eu">info@starttoswim.eu</a></p>
+                    </div>
+                    <form method="post" name="google-sheet" class="message">
+                        <div id="name-input">
+                            <input class="w3-input" type="text" name="Name" id="fname" placeholder="Name"
+                                autocomplete="cc-given-name" required>
+                            <input class="w3-input" type="text" name="Lastname" id="lname" placeholder="Last name"
+                                autocomplete="cc-family-name" required>
+                        </div>
+                        <input type="email" placeholder="Email adress" class="w3-input" id="emailAdress" name="Email" required>
+                        <textarea name="Message" id="message" cols="30" rows="10"
+                            placeholder="Write your message here."></textarea>
+                        <input id="submit" type="submit" name="submit" value="Send" class="knop">
+                    </form>
+                </div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d20157.820257666164!2d4.3777668!3d50.8362106!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c4c83599ef97%3A0x14f381e79c97f818!2sZwembad%20VUB!5e0!3m2!1snl!2sbe!4v1615398052104!5m2!1snl!2sbe"
+                    style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+    </main>
+    <!-- <script src="app.js"></script> -->
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+        <script src="app_firebase.js"></script>
+</body>
+
+</html>
